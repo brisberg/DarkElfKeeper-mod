@@ -1,7 +1,12 @@
 # Player Keeper
-"DEK_DARK_ELF_KEEPER"
+"DEK_DARK_ELF_LORD"
   {
     viewId = { "dark_elf_lord" }
+    name = {
+      name = "Dark Elves"
+      firstNameGen = "FIRST_MALE"
+      fullTitle = true
+    }
     attr = {
       DAMAGE 22
       DEFENSE 14
@@ -18,9 +23,6 @@
       DISTILLATION_SKILL 1
     }
     spells = { "advanced healing" "haste" "defense bonus" "damage bonus" "directed blast" }
-    name = {
-      name = "dark elf lord"
-    }
     hatedByEffect = HATE_ELVES
     inventory = {
       { type = "ElvenSword" prefixChance = 1 }

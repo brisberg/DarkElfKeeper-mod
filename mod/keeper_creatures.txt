@@ -1,6 +1,6 @@
 # Specify playable Keeper creatures
 
-"dek_1_darkelf_lord"
+"dek_1_darkelf_keeper"
 {
     creatureId = { "DEK_DARK_ELF_LORD" }
     tribeAlignment = EVIL
