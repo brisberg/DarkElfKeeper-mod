@@ -1,0 +1,61 @@
+# Player Keeper
+"DEK_DARK_ELF_KEEPER"
+  {
+    viewId = { "dark_elf_lord" }
+    attr = {
+      DAMAGE 22
+      DEFENSE 14
+      SPELL_DAMAGE 16
+    }
+    body = {
+      type = Humanoid MEDIUM
+    }
+    chatReactionFriendly = "curses all dwarves"
+    chatReactionHostile = "\"Die!\""
+    permanentEffects = {
+      MAGIC_RESISTANCE 1
+      NIGHT_VISION 1
+      DISTILLATION_SKILL 1
+    }
+    spells = { "advanced healing" "haste" "defense bonus" "damage bonus" "directed blast" }
+    name = {
+      name = "dark elf lord"
+    }
+    hatedByEffect = HATE_ELVES
+    inventory = {
+      { type = "ElvenSword" prefixChance = 1 }
+      { "LeatherArmor"}
+      { "ElvenBow"}
+    }
+  }
+
+# dek_dark_elf_keeper immigrantGroups
+"DEK_DARK_ELF_WARRIOR"
+  {
+    viewId = { "dark_elf_warrior" }
+    attr = {
+      DAMAGE 18
+      DEFENSE 12
+      SPELL_DAMAGE 6
+    }
+    body = {
+      type = Humanoid MEDIUM
+    }
+    chatReactionFriendly = "curses all dwarves"
+    chatReactionHostile = "\"Die!\""
+    permanentEffects = {
+      MAGIC_RESISTANCE 1
+      NIGHT_VISION 1
+      DISTILLATION_SKILL 1
+    }
+    spells = { "healing" }
+    maxLevelIncrease = {
+      MELEE 5
+      SPELL 5
+    }
+    name = {
+      name = "dark elf"
+      pluralName = "dark elves"
+    }
+    hatedByEffect = HATE_ELVES
+  }

@@ -1,0 +1,30 @@
+# Specify playable Keeper creatures
+
+"dek_1_darkelf_lord"
+{
+    creatureId = { "DEK_DARK_ELF_LORD" }
+    tribeAlignment = EVIL
+    immigrantGroups = { "dek_dark_elf_peasents" "dek_dark_elf_keeper"}
+    technology = {
+        "alchemy"
+        "advanced alchemy"
+        "alchemical conversion"
+        "pig breeding"
+        "iron working"
+        "jewellery"
+        "two-handed weapons"
+        "traps"
+        "archery"
+        "sorcery"
+        "advanced sorcery"
+        "magical weapons"
+        "master sorcery"
+    }
+    initialTech = { "jewellery" }
+    buildingGroups = {
+        "structure" "doors" "floors" "storage" "zones" "library" "beds" "pigsty" "coffins" "beast_cage" "prison"
+        "training" "crafting" "laboratory" "jeweller" "orders" "installations" "traps"
+    }
+    workshopGroups = { "basic" "traps" }
+    description = "Lead an army of Dark Elves to conquer the Dwarves in the name of your Spider God."
+}
