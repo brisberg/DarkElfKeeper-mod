@@ -34,6 +34,10 @@
 # dek_dark_elf_peasents immigants
 "DEK_DARK_ELF_PEASENT" inherit "DARK_ELF"
   {
+    name = {
+      name = "Dark Elf"
+      pluralName = "Dark Elves"
+    }
     skills = {
       "DIGGING" 0.2
     }
@@ -43,6 +47,10 @@
 "DEK_DARK_ELF_WARRIOR"
   {
     viewId = { "dark_elf_warrior" }
+    name = {
+      name = "Dark Elf Warrior"
+      pluralName = "Dark Elves Warrior"
+    }
     attr = {
       DAMAGE 18
       DEFENSE 12
@@ -62,10 +70,6 @@
     maxLevelIncrease = {
       MELEE 5
       SPELL 5
-    }
-    name = {
-      name = "dark elf"
-      pluralName = "dark elves"
     }
     hatedByEffect = HATE_ELVES
   }
