@@ -1,0 +1,2 @@
+"Keidence"
+"Adds Dark Elf Lord as a playable Keeper."
