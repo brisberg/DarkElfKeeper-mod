@@ -31,7 +31,15 @@
     }
   }
 
-# dek_dark_elf_keeper immigrantGroups
+# dek_dark_elf_peasents immigants
+"DEK_DARK_ELF_PEASENT" inherit "DARK_ELF"
+  {
+    skills = {
+      "DIGGING" 0.2
+    }
+  }
+
+# dek_dark_elf_keeper immigrants
 "DEK_DARK_ELF_WARRIOR"
   {
     viewId = { "dark_elf_warrior" }
